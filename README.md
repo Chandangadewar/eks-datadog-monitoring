@@ -55,9 +55,29 @@ EC2 → EKS Cluster → NGINX Pods → Datadog Agent → Datadog Dashboard
 
 ## 📊 Monitoring & Logs (Proof)
 
-### NGINX Logs in Datadog
+## 📊 Monitoring & Logs (Proof)
+
+### 🔍 NGINX Logs in Datadog
 
 ![NGINX Logs](screenshots/nginx-logs-datadog.png)
+
+---
+
+### ☸️ Kubernetes Overview
+
+![Kubernetes Overview](screenshots/datadog-kubernetes-overview.png)
+
+---
+
+### 📦 Pods Monitoring
+
+![Pods View](screenshots/datadog-pods-view.png)
+
+---
+
+### 💻 Kubernetes CLI Verification
+
+![CLI Output](screenshots/kubernetes-cli-verification.png)
 
 ---
 
