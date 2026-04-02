@@ -1,0 +1,29 @@
+datadog:
+  apiKeyExistingSecret: datadog-secret
+  appKeyExistingSecret: datadog-app-secret
+  site: us5.datadoghq.com            # change only if EU or US3
+  clusterName: my-eks-cluster
+
+  logs:
+    enabled: true
+    containerCollectAll: true
+
+  apm:
+    portEnabled: true
+
+  processAgent:
+    enabled: true
+    processCollectionEnabled: true
+
+  orchestratorExplorer:
+    enabled: true
+
+clusterAgent:
+  enabled: true
+  replicas: 2
+  pdb:
+    create: true
+
+agent:
+  containerLogs:
+    enabled: true
